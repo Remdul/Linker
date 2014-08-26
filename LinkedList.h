@@ -24,6 +24,8 @@ private:
 	Node *tail;
 
 };
+
+//This is an implementation detail and should go in the .cpp file instead of the .h file
 class linkedList::Node {
 	Node(int init_value);
 	int value;
