@@ -6,7 +6,8 @@
 class linkedList {
 public:
 	linkedList();
-	void insert (int value);
+	void add_first_value (int value);
+	void add_initial_value (int value);
 	void addHead(int value);
 	void addTail(int value);
 	void insertBefore(int value, int index);
@@ -24,14 +25,5 @@ private:
 	Node *tail;
 
 };
-
-//This is an implementation detail and should go in the .cpp file instead of the .h file
-class linkedList::Node {
-	Node(int init_value);
-	int value;
-	Node *next;
-	Node *prev;
-};
-
 
 #endif
