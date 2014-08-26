@@ -36,12 +36,6 @@ int main() {
 	char choice;
 	int number;
 
-	/*	cout << "1) Print List." << endl;
-	cout << "2) Add an Item to List." << endl;
-	cout << "3) Prepend an Item." << endl;
-	cout << "4) Remove an Item." << endl;
-	cout << "5) Exit Program." << endl;
-	 */
 	do{
 		choice = menu();
 		switch(choice)
