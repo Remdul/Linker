@@ -20,27 +20,28 @@ char menu() {
 int main() {
 	char choice;
 	int number;
+	linkedList list;
 
 	do {
 		choice = menu();
 		switch (choice) {
 		case '1':
-			print();
+			list.print();
 			break;
 		case '2':
 			cout << "Insert Value to add to list: ";
 			cin >> number;
-			addTail(number);
+			list.addTail(number);
 			break;
 		case '3':
 			cout << "Insert Value to add to list: ";
 			cin >> number;
-			addHead(number);
+			list.addHead(number);
 			break;
 		case '4':
 			cout << "Insert Node to print Value: ";
 			cin >> number;
-			get(number);
+			list.get(number);
 			break;
 		default:
 			cout << "Invalid Option!" << endl;

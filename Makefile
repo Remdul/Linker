@@ -39,7 +39,7 @@ SRCS = Main.cpp LinkedList.cpp
 OBJS = $(SRCS:.c=.o)
 
 # define the executable file 
-MAIN = Circleplot
+MAIN = Linker
 
 #
 # The following part of the makefile is generic; it can be used to 

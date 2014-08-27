@@ -9,6 +9,7 @@
 using namespace std;
 
 class linkedList::Node {
+public:
 	Node(int init_value);
 	int value;
 	Node *next;

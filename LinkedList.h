@@ -18,11 +18,11 @@ public:
 	void remove(int index);
 	void swap(int index1, int index2);
 	void print();
-
-private:
 	struct Node;
 	Node *head;
 	Node *tail;
+
+private:
 
 };
 
