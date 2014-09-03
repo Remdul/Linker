@@ -26,7 +26,7 @@ LFLAGS =
 LIBS =
 
 # define the C source files
-SRCS = Main.cpp LinkedList.cpp
+SRCS = LinkedList.cpp Main.cpp
 
 # define the C object files 
 #
